@@ -10,7 +10,7 @@ import { DotLottiePlayer } from "@dotlottie/react-player";
 
 export default function ContainerOne() {
   return (
-    <div className="relative h-[145vh] sm:pt-0 sm:h-screen w-full overflow-hidden bg-[#000000cb] flex items-center px-6 md:px-12">
+    <div className="relative h-[130vh] sm:pt-0 sm:h-screen w-full overflow-hidden bg-[#000000cb] flex items-center px-6 md:px-12">
       {/* Background Animated Squares (Now Full-Screen) */}
       <div className="absolute inset-0 -z-10 bg-[#41A8B0] dark:bg-black">
         <Squares
@@ -28,7 +28,7 @@ export default function ContainerOne() {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1 }}
-          className="flex items-center justify-center md:justify-start mb-10 md:mb-0"
+          className="flex items-center justify-center md:justify-start mb-5 mt-10 md:mb-0"
         >
           <div className="relative flex items-center justify-center">
             {/* Logo */}
